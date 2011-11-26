@@ -22,8 +22,9 @@
 .deps
 # Stuff made by our makefiles
 *.bak
-# custom OS stuff
+# MacOSX stuff
 .DS_Store
+xcuserdata
 
 # /
 /Makefile

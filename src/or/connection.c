@@ -1952,6 +1952,9 @@ int
 retry_all_listeners(smartlist_t *replaced_conns,
                     smartlist_t *new_conns)
 {
+	// Hack for the Tor-automode-release. We don't want any listener at all.
+	return 0;
+	
   or_options_t *options = get_options();
   int retval = 0;
   const uint16_t old_or_port = router_get_advertised_or_port(options);

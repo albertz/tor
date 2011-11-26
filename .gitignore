@@ -22,6 +22,8 @@
 .deps
 # Stuff made by our makefiles
 *.bak
+# custom OS stuff
+.DS_Store
 
 # /
 /Makefile

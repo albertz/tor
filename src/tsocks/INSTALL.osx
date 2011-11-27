@@ -1,0 +1,7 @@
+Quick installation instructions for OS X:
+- autoconf
+- CFLAGS="-arch i386 -arch x86_64" ./configure --prefix=/usr
+- make
+- sudo make install
+- sudo vi /usr/bin/tsocks
+- create /etc/tsocks.conf. See tsocks.conf.simple.example (will work with just IP changed).

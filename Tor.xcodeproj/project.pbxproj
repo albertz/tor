@@ -7,59 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2327CEF514813D1D000ACC37 /* address.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDDB14813D1C000ACC37 /* address.c */; };
-		2327CEF714813D1D000ACC37 /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDDE14813D1C000ACC37 /* aes.c */; };
-		2327CEFB14813D1D000ACC37 /* compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDE314813D1C000ACC37 /* compat.c */; };
-		2327CEFD14813D1D000ACC37 /* compat_libevent.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDE614813D1C000ACC37 /* compat_libevent.c */; };
-		2327CEFF14813D1D000ACC37 /* container.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDE914813D1C000ACC37 /* container.c */; };
-		2327CF0114813D1D000ACC37 /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDEC14813D1C000ACC37 /* crypto.c */; };
-		2327CF0314813D1D000ACC37 /* di_ops.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDEF14813D1C000ACC37 /* di_ops.c */; };
-		2327CF0814813D1D000ACC37 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDF614813D1C000ACC37 /* log.c */; };
-		2327CF0B14813D1D000ACC37 /* memarea.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDFB14813D1C000ACC37 /* memarea.c */; };
-		2327CF0D14813D1D000ACC37 /* mempool.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDFE14813D1C000ACC37 /* mempool.c */; };
-		2327CF1014813D1D000ACC37 /* procmon.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE0214813D1C000ACC37 /* procmon.c */; };
-		2327CF1314813D1D000ACC37 /* strlcat.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE0614813D1C000ACC37 /* strlcat.c */; };
-		2327CF1414813D1D000ACC37 /* strlcpy.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE0714813D1C000ACC37 /* strlcpy.c */; };
-		2327CF1514813D1D000ACC37 /* torgzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE0814813D1C000ACC37 /* torgzip.c */; };
-		2327CF1714813D1D000ACC37 /* tortls.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE0D14813D1C000ACC37 /* tortls.c */; };
-		2327CF1914813D1D000ACC37 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE1114813D1C000ACC37 /* util.c */; };
-		2327CF1B14813D1D000ACC37 /* util_codedigest.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE1414813D1C000ACC37 /* util_codedigest.c */; };
-		2327CF1F14813D1D000ACC37 /* buffers.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE4814813D1C000ACC37 /* buffers.c */; };
-		2327CF2114813D1D000ACC37 /* circuitbuild.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE4B14813D1C000ACC37 /* circuitbuild.c */; };
-		2327CF2314813D1D000ACC37 /* circuitlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE4E14813D1C000ACC37 /* circuitlist.c */; };
-		2327CF2514813D1D000ACC37 /* circuituse.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5114813D1C000ACC37 /* circuituse.c */; };
-		2327CF2714813D1D000ACC37 /* command.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5414813D1C000ACC37 /* command.c */; };
-		2327CF2914813D1D000ACC37 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5714813D1C000ACC37 /* config.c */; };
-		2327CF2B14813D1D000ACC37 /* config_codedigest.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5A14813D1C000ACC37 /* config_codedigest.c */; };
-		2327CF2D14813D1D000ACC37 /* connection.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5C14813D1C000ACC37 /* connection.c */; };
-		2327CF2F14813D1D000ACC37 /* connection_edge.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5F14813D1C000ACC37 /* connection_edge.c */; };
-		2327CF3114813D1D000ACC37 /* connection_or.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE6214813D1C000ACC37 /* connection_or.c */; };
-		2327CF3314813D1D000ACC37 /* control.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE6514813D1C000ACC37 /* control.c */; };
-		2327CF3514813D1D000ACC37 /* cpuworker.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE6814813D1C000ACC37 /* cpuworker.c */; };
-		2327CF3714813D1D000ACC37 /* directory.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE6B14813D1C000ACC37 /* directory.c */; };
-		2327CF3914813D1D000ACC37 /* dirserv.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE6E14813D1C000ACC37 /* dirserv.c */; };
-		2327CF3B14813D1D000ACC37 /* dirvote.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE7114813D1C000ACC37 /* dirvote.c */; };
-		2327CF3D14813D1D000ACC37 /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE7414813D1C000ACC37 /* dns.c */; };
-		2327CF3F14813D1D000ACC37 /* dnsserv.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE7714813D1C000ACC37 /* dnsserv.c */; };
-		2327CF4114813D1D000ACC37 /* eventdns.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE7A14813D1C000ACC37 /* eventdns.c */; };
-		2327CF4214813D1D000ACC37 /* geoip.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE7D14813D1C000ACC37 /* geoip.c */; };
-		2327CF4414813D1D000ACC37 /* hibernate.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE8014813D1C000ACC37 /* hibernate.c */; };
-		2327CF4714813D1D000ACC37 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE8414813D1C000ACC37 /* main.c */; };
-		2327CF4B14813D1D000ACC37 /* microdesc.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE8C14813D1C000ACC37 /* microdesc.c */; };
-		2327CF4D14813D1D000ACC37 /* networkstatus.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE8F14813D1C000ACC37 /* networkstatus.c */; };
-		2327CF5014813D1D000ACC37 /* onion.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE9414813D1C000ACC37 /* onion.c */; };
-		2327CF5314813D1D000ACC37 /* policies.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE9914813D1C000ACC37 /* policies.c */; };
-		2327CF5514813D1D000ACC37 /* reasons.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE9C14813D1C000ACC37 /* reasons.c */; };
-		2327CF5714813D1D000ACC37 /* relay.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE9F14813D1C000ACC37 /* relay.c */; };
-		2327CF5914813D1D000ACC37 /* rendclient.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEA214813D1C000ACC37 /* rendclient.c */; };
-		2327CF5B14813D1D000ACC37 /* rendcommon.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEA514813D1C000ACC37 /* rendcommon.c */; };
-		2327CF5D14813D1D000ACC37 /* rendmid.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEA814813D1C000ACC37 /* rendmid.c */; };
-		2327CF5F14813D1D000ACC37 /* rendservice.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEAB14813D1C000ACC37 /* rendservice.c */; };
-		2327CF6114813D1D000ACC37 /* rephist.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEAE14813D1C000ACC37 /* rephist.c */; };
-		2327CF6314813D1D000ACC37 /* router.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEB114813D1C000ACC37 /* router.c */; };
-		2327CF6514813D1D000ACC37 /* routerlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEB414813D1C000ACC37 /* routerlist.c */; };
-		2327CF6714813D1D000ACC37 /* routerparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEB714813D1C000ACC37 /* routerparse.c */; };
 		2327CF6914813D1D000ACC37 /* tor_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEBB14813D1C000ACC37 /* tor_main.c */; };
+		2327CF941482B227000ACC37 /* address.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDDB14813D1C000ACC37 /* address.c */; };
+		2327CF951482B227000ACC37 /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDDE14813D1C000ACC37 /* aes.c */; };
+		2327CF961482B227000ACC37 /* compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDE314813D1C000ACC37 /* compat.c */; };
+		2327CF971482B227000ACC37 /* compat_libevent.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDE614813D1C000ACC37 /* compat_libevent.c */; };
+		2327CF981482B227000ACC37 /* container.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDE914813D1C000ACC37 /* container.c */; };
+		2327CF991482B227000ACC37 /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDEC14813D1C000ACC37 /* crypto.c */; };
+		2327CF9A1482B227000ACC37 /* di_ops.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDEF14813D1C000ACC37 /* di_ops.c */; };
+		2327CF9B1482B227000ACC37 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDF614813D1C000ACC37 /* log.c */; };
+		2327CF9C1482B227000ACC37 /* memarea.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDFB14813D1C000ACC37 /* memarea.c */; };
+		2327CF9D1482B227000ACC37 /* mempool.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CDFE14813D1C000ACC37 /* mempool.c */; };
+		2327CF9E1482B227000ACC37 /* procmon.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE0214813D1C000ACC37 /* procmon.c */; };
+		2327CF9F1482B227000ACC37 /* strlcat.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE0614813D1C000ACC37 /* strlcat.c */; };
+		2327CFA01482B227000ACC37 /* strlcpy.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE0714813D1C000ACC37 /* strlcpy.c */; };
+		2327CFA11482B227000ACC37 /* torgzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE0814813D1C000ACC37 /* torgzip.c */; };
+		2327CFA21482B227000ACC37 /* tortls.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE0D14813D1C000ACC37 /* tortls.c */; };
+		2327CFA31482B227000ACC37 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE1114813D1C000ACC37 /* util.c */; };
+		2327CFA41482B227000ACC37 /* util_codedigest.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE1414813D1C000ACC37 /* util_codedigest.c */; };
+		2327CFA51482B227000ACC37 /* buffers.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE4814813D1C000ACC37 /* buffers.c */; };
+		2327CFA61482B227000ACC37 /* circuitbuild.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE4B14813D1C000ACC37 /* circuitbuild.c */; };
+		2327CFA71482B227000ACC37 /* circuitlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE4E14813D1C000ACC37 /* circuitlist.c */; };
+		2327CFA81482B227000ACC37 /* circuituse.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5114813D1C000ACC37 /* circuituse.c */; };
+		2327CFA91482B227000ACC37 /* command.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5414813D1C000ACC37 /* command.c */; };
+		2327CFAA1482B227000ACC37 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5714813D1C000ACC37 /* config.c */; };
+		2327CFAB1482B227000ACC37 /* config_codedigest.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5A14813D1C000ACC37 /* config_codedigest.c */; };
+		2327CFAC1482B227000ACC37 /* connection.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5C14813D1C000ACC37 /* connection.c */; };
+		2327CFAD1482B227000ACC37 /* connection_edge.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE5F14813D1C000ACC37 /* connection_edge.c */; };
+		2327CFAE1482B227000ACC37 /* connection_or.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE6214813D1C000ACC37 /* connection_or.c */; };
+		2327CFAF1482B227000ACC37 /* control.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE6514813D1C000ACC37 /* control.c */; };
+		2327CFB01482B227000ACC37 /* cpuworker.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE6814813D1C000ACC37 /* cpuworker.c */; };
+		2327CFB11482B227000ACC37 /* directory.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE6B14813D1C000ACC37 /* directory.c */; };
+		2327CFB21482B227000ACC37 /* dirserv.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE6E14813D1C000ACC37 /* dirserv.c */; };
+		2327CFB31482B227000ACC37 /* dirvote.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE7114813D1C000ACC37 /* dirvote.c */; };
+		2327CFB41482B227000ACC37 /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE7414813D1C000ACC37 /* dns.c */; };
+		2327CFB51482B227000ACC37 /* dnsserv.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE7714813D1C000ACC37 /* dnsserv.c */; };
+		2327CFB61482B227000ACC37 /* eventdns.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE7A14813D1C000ACC37 /* eventdns.c */; };
+		2327CFB71482B227000ACC37 /* geoip.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE7D14813D1C000ACC37 /* geoip.c */; };
+		2327CFB81482B227000ACC37 /* hibernate.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE8014813D1C000ACC37 /* hibernate.c */; };
+		2327CFB91482B227000ACC37 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE8414813D1C000ACC37 /* main.c */; };
+		2327CFBA1482B227000ACC37 /* microdesc.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE8C14813D1C000ACC37 /* microdesc.c */; };
+		2327CFBB1482B227000ACC37 /* networkstatus.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE8F14813D1C000ACC37 /* networkstatus.c */; };
+		2327CFBC1482B227000ACC37 /* onion.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE9414813D1C000ACC37 /* onion.c */; };
+		2327CFBD1482B227000ACC37 /* policies.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE9914813D1C000ACC37 /* policies.c */; };
+		2327CFBE1482B227000ACC37 /* reasons.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE9C14813D1C000ACC37 /* reasons.c */; };
+		2327CFBF1482B227000ACC37 /* relay.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CE9F14813D1C000ACC37 /* relay.c */; };
+		2327CFC01482B227000ACC37 /* rendclient.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEA214813D1C000ACC37 /* rendclient.c */; };
+		2327CFC11482B227000ACC37 /* rendcommon.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEA514813D1C000ACC37 /* rendcommon.c */; };
+		2327CFC21482B227000ACC37 /* rendmid.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEA814813D1C000ACC37 /* rendmid.c */; };
+		2327CFC31482B227000ACC37 /* rendservice.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEAB14813D1C000ACC37 /* rendservice.c */; };
+		2327CFC41482B227000ACC37 /* rephist.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEAE14813D1C000ACC37 /* rephist.c */; };
+		2327CFC51482B227000ACC37 /* router.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEB114813D1C000ACC37 /* router.c */; };
+		2327CFC61482B227000ACC37 /* routerlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEB414813D1C000ACC37 /* routerlist.c */; };
+		2327CFC71482B228000ACC37 /* routerparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CEB714813D1C000ACC37 /* routerparse.c */; };
+		2327CFC81482B23B000ACC37 /* libtor.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2327CF901482B1E5000ACC37 /* libtor.dylib */; };
+		2327CFD21482B26B000ACC37 /* connectproxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2327CF8A1482AE34000ACC37 /* connectproxy.cpp */; };
+		2327CFD31482B573000ACC37 /* libtor.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2327CF901482B1E5000ACC37 /* libtor.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -185,14 +188,33 @@
 		2327CEB814813D1C000ACC37 /* routerparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = routerparse.h; sourceTree = "<group>"; };
 		2327CEBB14813D1C000ACC37 /* tor_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tor_main.c; sourceTree = "<group>"; };
 		2327CF8814814A29000ACC37 /* orconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orconfig.h; sourceTree = "<group>"; };
+		2327CF8A1482AE34000ACC37 /* connectproxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = connectproxy.cpp; sourceTree = "<group>"; };
+		2327CF901482B1E5000ACC37 /* libtor.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtor.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		2327CFCD1482B24A000ACC37 /* libtorify.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtorify.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FF3B9E14813C8200BE7E3E /* Tor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tor; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2327CF8D1482B1E5000ACC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2327CFCA1482B24A000ACC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2327CFD31482B573000ACC37 /* libtor.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		23FF3B9B14813C8200BE7E3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2327CFC81482B23B000ACC37 /* libtor.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +224,7 @@
 		2327CDC814813D1C000ACC37 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				2327CF891482AE34000ACC37 /* connectproxy */,
 				2327CF8714814A29000ACC37 /* macosx */,
 				2327CDC914813D1C000ACC37 /* common */,
 				2327CE1614813D1C000ACC37 /* config */,
@@ -348,6 +371,14 @@
 			path = macosx;
 			sourceTree = "<group>";
 		};
+		2327CF891482AE34000ACC37 /* connectproxy */ = {
+			isa = PBXGroup;
+			children = (
+				2327CF8A1482AE34000ACC37 /* connectproxy.cpp */,
+			);
+			path = connectproxy;
+			sourceTree = "<group>";
+		};
 		23FF3B9314813C8100BE7E3E = {
 			isa = PBXGroup;
 			children = (
@@ -361,6 +392,8 @@
 			isa = PBXGroup;
 			children = (
 				23FF3B9E14813C8200BE7E3E /* Tor */,
+				2327CF901482B1E5000ACC37 /* libtor.dylib */,
+				2327CFCD1482B24A000ACC37 /* libtorify.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -374,7 +407,58 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2327CF8E1482B1E5000ACC37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2327CFCB1482B24A000ACC37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		2327CF8F1482B1E5000ACC37 /* tor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2327CF911482B1E5000ACC37 /* Build configuration list for PBXNativeTarget "tor" */;
+			buildPhases = (
+				2327CF8C1482B1E5000ACC37 /* Sources */,
+				2327CF8D1482B1E5000ACC37 /* Frameworks */,
+				2327CF8E1482B1E5000ACC37 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tor;
+			productName = tor;
+			productReference = 2327CF901482B1E5000ACC37 /* libtor.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		2327CFCC1482B24A000ACC37 /* torify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2327CFCE1482B24A000ACC37 /* Build configuration list for PBXNativeTarget "torify" */;
+			buildPhases = (
+				2327CFC91482B24A000ACC37 /* Sources */,
+				2327CFCA1482B24A000ACC37 /* Frameworks */,
+				2327CFCB1482B24A000ACC37 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = torify;
+			productName = torify;
+			productReference = 2327CFCD1482B24A000ACC37 /* libtorify.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 		23FF3B9D14813C8200BE7E3E /* Tor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23FF3BA814813C8200BE7E3E /* Build configuration list for PBXNativeTarget "Tor" */;
@@ -413,67 +497,84 @@
 			projectRoot = "";
 			targets = (
 				23FF3B9D14813C8200BE7E3E /* Tor */,
+				2327CF8F1482B1E5000ACC37 /* tor */,
+				2327CFCC1482B24A000ACC37 /* torify */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2327CF8C1482B1E5000ACC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2327CF941482B227000ACC37 /* address.c in Sources */,
+				2327CF951482B227000ACC37 /* aes.c in Sources */,
+				2327CF961482B227000ACC37 /* compat.c in Sources */,
+				2327CF971482B227000ACC37 /* compat_libevent.c in Sources */,
+				2327CF981482B227000ACC37 /* container.c in Sources */,
+				2327CF991482B227000ACC37 /* crypto.c in Sources */,
+				2327CF9A1482B227000ACC37 /* di_ops.c in Sources */,
+				2327CF9B1482B227000ACC37 /* log.c in Sources */,
+				2327CF9C1482B227000ACC37 /* memarea.c in Sources */,
+				2327CF9D1482B227000ACC37 /* mempool.c in Sources */,
+				2327CF9E1482B227000ACC37 /* procmon.c in Sources */,
+				2327CF9F1482B227000ACC37 /* strlcat.c in Sources */,
+				2327CFA01482B227000ACC37 /* strlcpy.c in Sources */,
+				2327CFA11482B227000ACC37 /* torgzip.c in Sources */,
+				2327CFA21482B227000ACC37 /* tortls.c in Sources */,
+				2327CFA31482B227000ACC37 /* util.c in Sources */,
+				2327CFA41482B227000ACC37 /* util_codedigest.c in Sources */,
+				2327CFA51482B227000ACC37 /* buffers.c in Sources */,
+				2327CFA61482B227000ACC37 /* circuitbuild.c in Sources */,
+				2327CFA71482B227000ACC37 /* circuitlist.c in Sources */,
+				2327CFA81482B227000ACC37 /* circuituse.c in Sources */,
+				2327CFA91482B227000ACC37 /* command.c in Sources */,
+				2327CFAA1482B227000ACC37 /* config.c in Sources */,
+				2327CFAB1482B227000ACC37 /* config_codedigest.c in Sources */,
+				2327CFAC1482B227000ACC37 /* connection.c in Sources */,
+				2327CFAD1482B227000ACC37 /* connection_edge.c in Sources */,
+				2327CFAE1482B227000ACC37 /* connection_or.c in Sources */,
+				2327CFAF1482B227000ACC37 /* control.c in Sources */,
+				2327CFB01482B227000ACC37 /* cpuworker.c in Sources */,
+				2327CFB11482B227000ACC37 /* directory.c in Sources */,
+				2327CFB21482B227000ACC37 /* dirserv.c in Sources */,
+				2327CFB31482B227000ACC37 /* dirvote.c in Sources */,
+				2327CFB41482B227000ACC37 /* dns.c in Sources */,
+				2327CFB51482B227000ACC37 /* dnsserv.c in Sources */,
+				2327CFB61482B227000ACC37 /* eventdns.c in Sources */,
+				2327CFB71482B227000ACC37 /* geoip.c in Sources */,
+				2327CFB81482B227000ACC37 /* hibernate.c in Sources */,
+				2327CFB91482B227000ACC37 /* main.c in Sources */,
+				2327CFBA1482B227000ACC37 /* microdesc.c in Sources */,
+				2327CFBB1482B227000ACC37 /* networkstatus.c in Sources */,
+				2327CFBC1482B227000ACC37 /* onion.c in Sources */,
+				2327CFBD1482B227000ACC37 /* policies.c in Sources */,
+				2327CFBE1482B227000ACC37 /* reasons.c in Sources */,
+				2327CFBF1482B227000ACC37 /* relay.c in Sources */,
+				2327CFC01482B227000ACC37 /* rendclient.c in Sources */,
+				2327CFC11482B227000ACC37 /* rendcommon.c in Sources */,
+				2327CFC21482B227000ACC37 /* rendmid.c in Sources */,
+				2327CFC31482B227000ACC37 /* rendservice.c in Sources */,
+				2327CFC41482B227000ACC37 /* rephist.c in Sources */,
+				2327CFC51482B227000ACC37 /* router.c in Sources */,
+				2327CFC61482B227000ACC37 /* routerlist.c in Sources */,
+				2327CFC71482B228000ACC37 /* routerparse.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2327CFC91482B24A000ACC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2327CFD21482B26B000ACC37 /* connectproxy.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		23FF3B9A14813C8200BE7E3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2327CEF514813D1D000ACC37 /* address.c in Sources */,
-				2327CEF714813D1D000ACC37 /* aes.c in Sources */,
-				2327CEFB14813D1D000ACC37 /* compat.c in Sources */,
-				2327CEFD14813D1D000ACC37 /* compat_libevent.c in Sources */,
-				2327CEFF14813D1D000ACC37 /* container.c in Sources */,
-				2327CF0114813D1D000ACC37 /* crypto.c in Sources */,
-				2327CF0314813D1D000ACC37 /* di_ops.c in Sources */,
-				2327CF0814813D1D000ACC37 /* log.c in Sources */,
-				2327CF0B14813D1D000ACC37 /* memarea.c in Sources */,
-				2327CF0D14813D1D000ACC37 /* mempool.c in Sources */,
-				2327CF1014813D1D000ACC37 /* procmon.c in Sources */,
-				2327CF1314813D1D000ACC37 /* strlcat.c in Sources */,
-				2327CF1414813D1D000ACC37 /* strlcpy.c in Sources */,
-				2327CF1514813D1D000ACC37 /* torgzip.c in Sources */,
-				2327CF1714813D1D000ACC37 /* tortls.c in Sources */,
-				2327CF1914813D1D000ACC37 /* util.c in Sources */,
-				2327CF1B14813D1D000ACC37 /* util_codedigest.c in Sources */,
-				2327CF1F14813D1D000ACC37 /* buffers.c in Sources */,
-				2327CF2114813D1D000ACC37 /* circuitbuild.c in Sources */,
-				2327CF2314813D1D000ACC37 /* circuitlist.c in Sources */,
-				2327CF2514813D1D000ACC37 /* circuituse.c in Sources */,
-				2327CF2714813D1D000ACC37 /* command.c in Sources */,
-				2327CF2914813D1D000ACC37 /* config.c in Sources */,
-				2327CF2B14813D1D000ACC37 /* config_codedigest.c in Sources */,
-				2327CF2D14813D1D000ACC37 /* connection.c in Sources */,
-				2327CF2F14813D1D000ACC37 /* connection_edge.c in Sources */,
-				2327CF3114813D1D000ACC37 /* connection_or.c in Sources */,
-				2327CF3314813D1D000ACC37 /* control.c in Sources */,
-				2327CF3514813D1D000ACC37 /* cpuworker.c in Sources */,
-				2327CF3714813D1D000ACC37 /* directory.c in Sources */,
-				2327CF3914813D1D000ACC37 /* dirserv.c in Sources */,
-				2327CF3B14813D1D000ACC37 /* dirvote.c in Sources */,
-				2327CF3D14813D1D000ACC37 /* dns.c in Sources */,
-				2327CF3F14813D1D000ACC37 /* dnsserv.c in Sources */,
-				2327CF4114813D1D000ACC37 /* eventdns.c in Sources */,
-				2327CF4214813D1D000ACC37 /* geoip.c in Sources */,
-				2327CF4414813D1D000ACC37 /* hibernate.c in Sources */,
-				2327CF4714813D1D000ACC37 /* main.c in Sources */,
-				2327CF4B14813D1D000ACC37 /* microdesc.c in Sources */,
-				2327CF4D14813D1D000ACC37 /* networkstatus.c in Sources */,
-				2327CF5014813D1D000ACC37 /* onion.c in Sources */,
-				2327CF5314813D1D000ACC37 /* policies.c in Sources */,
-				2327CF5514813D1D000ACC37 /* reasons.c in Sources */,
-				2327CF5714813D1D000ACC37 /* relay.c in Sources */,
-				2327CF5914813D1D000ACC37 /* rendclient.c in Sources */,
-				2327CF5B14813D1D000ACC37 /* rendcommon.c in Sources */,
-				2327CF5D14813D1D000ACC37 /* rendmid.c in Sources */,
-				2327CF5F14813D1D000ACC37 /* rendservice.c in Sources */,
-				2327CF6114813D1D000ACC37 /* rephist.c in Sources */,
-				2327CF6314813D1D000ACC37 /* router.c in Sources */,
-				2327CF6514813D1D000ACC37 /* routerlist.c in Sources */,
-				2327CF6714813D1D000ACC37 /* routerparse.c in Sources */,
 				2327CF6914813D1D000ACC37 /* tor_main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,10 +582,67 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		2327CF921482B1E5000ACC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+					"\"$(SRCROOT)/src/common\"",
+					"\"$(SRCROOT)/src/or\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lcrypto",
+					"-lssl",
+					"-levent",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2327CF931482B1E5000ACC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+					"\"$(SRCROOT)/src/common\"",
+					"\"$(SRCROOT)/src/or\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lz",
+					"-lcrypto",
+					"-lssl",
+					"-levent",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2327CFCF1482B24A000ACC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2327CFD01482B24A000ACC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		23FF3BA614813C8200BE7E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -501,7 +659,6 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -510,7 +667,6 @@
 		23FF3BA714813C8200BE7E3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -521,7 +677,6 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -569,6 +724,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2327CF911482B1E5000ACC37 /* Build configuration list for PBXNativeTarget "tor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2327CF921482B1E5000ACC37 /* Debug */,
+				2327CF931482B1E5000ACC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2327CFCE1482B24A000ACC37 /* Build configuration list for PBXNativeTarget "torify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2327CFCF1482B24A000ACC37 /* Debug */,
+				2327CFD01482B24A000ACC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		23FF3B9814813C8100BE7E3E /* Build configuration list for PBXProject "Tor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

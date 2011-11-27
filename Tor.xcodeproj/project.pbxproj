@@ -63,6 +63,8 @@
 		2327CFC81482B23B000ACC37 /* libtor.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2327CF901482B1E5000ACC37 /* libtor.dylib */; };
 		2327CFD21482B26B000ACC37 /* connectproxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2327CF8A1482AE34000ACC37 /* connectproxy.cpp */; };
 		2327CFD31482B573000ACC37 /* libtor.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2327CF901482B1E5000ACC37 /* libtor.dylib */; };
+		2327CFEB1482BB82000ACC37 /* mach_override.c in Sources */ = {isa = PBXBuildFile; fileRef = 2327CFE11482BB82000ACC37 /* mach_override.c */; };
+		2327CFEC1482BB82000ACC37 /* mach_override.h in Headers */ = {isa = PBXBuildFile; fileRef = 2327CFE21482BB82000ACC37 /* mach_override.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -191,6 +193,9 @@
 		2327CF8A1482AE34000ACC37 /* connectproxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = connectproxy.cpp; sourceTree = "<group>"; };
 		2327CF901482B1E5000ACC37 /* libtor.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtor.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		2327CFCD1482B24A000ACC37 /* libtorify.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtorify.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		2327CFE11482BB82000ACC37 /* mach_override.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mach_override.c; sourceTree = "<group>"; };
+		2327CFE21482BB82000ACC37 /* mach_override.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mach_override.h; sourceTree = "<group>"; };
+		2327CFE61482BB82000ACC37 /* test_mach_override.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_mach_override.cp; sourceTree = "<group>"; };
 		23FF3B9E14813C8200BE7E3E /* Tor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tor; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -224,6 +229,7 @@
 		2327CDC814813D1C000ACC37 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				2327CFDE1482BB82000ACC37 /* mach_override */,
 				2327CF891482AE34000ACC37 /* connectproxy */,
 				2327CF8714814A29000ACC37 /* macosx */,
 				2327CDC914813D1C000ACC37 /* common */,
@@ -379,6 +385,16 @@
 			path = connectproxy;
 			sourceTree = "<group>";
 		};
+		2327CFDE1482BB82000ACC37 /* mach_override */ = {
+			isa = PBXGroup;
+			children = (
+				2327CFE11482BB82000ACC37 /* mach_override.c */,
+				2327CFE21482BB82000ACC37 /* mach_override.h */,
+				2327CFE61482BB82000ACC37 /* test_mach_override.cp */,
+			);
+			path = mach_override;
+			sourceTree = "<group>";
+		};
 		23FF3B9314813C8100BE7E3E = {
 			isa = PBXGroup;
 			children = (
@@ -419,6 +435,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2327CFEC1482BB82000ACC37 /* mach_override.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +585,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2327CFD21482B26B000ACC37 /* connectproxy.cpp in Sources */,
+				2327CFEB1482BB82000ACC37 /* mach_override.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

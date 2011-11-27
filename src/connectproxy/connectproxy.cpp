@@ -1,7 +1,5 @@
 
-// DYLD_INSERT_LIBRARIES
-
-// DYLD_FORCE_FLAT_NAMESPACE=1 DYLD_INSERT_LIBRARIES=/Users/az/Library/Developer/Xcode/DerivedData/Tor-fznskzgbnoqjmcaiipujdkqolerb/Build/Products/Debug/libtorify.dylib curl http://www.az2000.de -s >/dev/null
+// DYLD_INSERT_LIBRARIES=/Users/az/Library/Developer/Xcode/DerivedData/Tor-fznskzgbnoqjmcaiipujdkqolerb/Build/Products/Debug/libtorify.dylib curl http://www.az2000.de -s >/dev/null
 
 #ifdef USE_GNU_SOURCE
 #define _GNU_SOURCE
@@ -27,6 +25,8 @@
 #ifdef USE_SOCKS_DNS
 #include <resolv.h>
 #endif
+
+#include "mach_override.h"
 
 #define USE_SOCKS_DNS 1
 
@@ -84,6 +84,12 @@ void _init(void) {
 	realresinit = (int (*)())dlsym(RTLD_NEXT, "res_init");
 #endif
 
+	//	Override local function by pointer.
+	kern_return_t err = 0;
+	err = mach_override_ptr((void*)realconnect, (void*)connect, (void**)&realconnect);	
+	err = mach_override_ptr((void*)realselect, (void*)select, (void**)&realselect);	
+	err = mach_override_ptr((void*)realpoll, (void*)poll, (void**)&realpoll);	
+	err = mach_override_ptr((void*)realclose, (void*)close, (void**)&realclose);	
 }
 
 int connect(CONNECT_SIGNATURE) {       
